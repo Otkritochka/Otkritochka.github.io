@@ -140,7 +140,7 @@ ul>li a:hover{
     font-size: 30px;
 } 
 .shablones{
-    width: 90%; 
+    width: 100%; 
     height: auto; 
     display: flex; 
     flex-wrap: wrap; 
@@ -154,7 +154,8 @@ ul>li a:hover{
     background-color: pink;
     border: 1px solid palevioletred; 
     border-radius: 30px; 
-    margin: 20px;
+    margin: 20px; 
+    padding:20px;
 } 
 .shablon>p,strong{
     color: white; 
@@ -166,9 +167,9 @@ ul>li a:hover{
 .shabimg{
     width: 250px; 
     height: 250px; 
-    
+    background-position: center center;
     background-repeat: no-repeat; 
-    background-size: contain;
+    background-size: cover;
     margin: auto auto;
 } 
 #Catalog p{
